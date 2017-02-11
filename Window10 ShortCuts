@@ -1,0 +1,27 @@
+/* In this file i will store good to know shortcuts for windows
+with a goal to improve my way of working with programing in all sort of languages*/
+
+
+/*Firsty controling position of currrent selected window's*/
+      - WindowsKey + ArrowKey (left will push left, right will push it to the right side and so on)
+
+
+/*Usage of "Virtual" Desktops */
+      - WindowsKey + CTRL + D (will create a new "virtual" desktop)
+      - WindowsKey + CTRL + F4 (this will close the current "virtual" Desktop)
+      - WindwosKey + CTLR + Left/Right-ArroKey (this will move you between you Desktops)
+
+
+
+
+/*Commands you probably already know but just "why not" */
+      - CTRL + F (used for searching in text)
+      - CTRL + V or SHIF + Insert (this is for "pasting" text/object/folder)
+      - CTRL + C or CTRL + Insert (this is for "Copying" selected text/object/folder)
+      - CTRL + A (This will select all text)
+      
+/* These commads can be extended to with other buttons Like */
+      - SHIFT + HOME/END (this will select all text along the way from curser to end/start of row)
+      - CRTL + SHIFT + HOME/END (same as above but for all rows above or under curser)
+      
+  /*END (this is all for now, will be updated) */
