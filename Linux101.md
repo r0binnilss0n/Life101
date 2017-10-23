@@ -1,11 +1,12 @@
-############ A Beginner Guide To Linux #####################
-============================================================
+ A Beginner Guide To Linux 
+===========================
 Hello in this text i will store all usefull information that i find
 while learning & using Linux myselfs, more specificly Debian Stretch so 
 here we go, hope this helps you otherwise it atleas will help me.
 
 
-##### Command lists #####
+ Command lists
+-----------------
 Here i will store all commands that i have knowleadge about 
 & will be update as time goes on.
 cd = change directory
@@ -18,7 +19,8 @@ sudo = this is something you adds to a command if you get error "premission deni
 
 
 
-##### Alias #####
+ Alias
+-----------------
 While using linux you will use the linux terminal to almost everything, 
 and you will learn to love it eventually. A step in the right direction
 when using Linux terminal is when you discover Alias'es, an alias is a command
@@ -32,7 +34,7 @@ vim ~/.bashrc (vim is the editor i use & highly recommend you do so to)
 
 Then i usally scrolls to the bottom, and makes a comment to store
 my own alias under lookes something like this.
-#My Custom alias
+ __My Custom alias__
 alias upp='sudo apt-get update && sudo apt-get upgrade'
 
 
@@ -49,7 +51,8 @@ There you go, now your alias upp or whatever you created should work.
 
 
 
-##### LINKS #####
+ LINKS 
+---------------
 Here i will store links that i used to learn everything i know about Linux
 and i recommend you too takes alook at.
 
@@ -68,7 +71,7 @@ and i recommend you too takes alook at.
 Reference: https://ubuntuforums.org/showthread.php?t=2181558
 
 Code line that fixed my problem: 
- - echo "options asus_nb_wmi wapf=4" | sudo tee /etc/modprobe.d/asus_nb_wmi.conf
+ - echo "options asus nb wmi wapf=4" | sudo tee /etc/modprobe.d/asus nb wmi.conf
  
  
  
