@@ -55,3 +55,21 @@ and i recommend you too takes alook at.
 ---> 15 Linux Terminal Commands, cool/good to know <---
 - https://www.lifewire.com/linux-terminal-commands-rock-your-world-2201165 -
 
+
+---> Basic Info, Wery good to read, alot of great info <---
+- https://www.lifewire.com/beginners-guide-to-linux-4090233 - 
+
+###########Linux Fedora Asus k501ux####################
+
+
+
+###Wifi fix#######
+Reference: https://ubuntuforums.org/showthread.php?t=2181558
+
+Code line that fixed my problem: 
+ - echo "options asus_nb_wmi wapf=4" | sudo tee /etc/modprobe.d/asus_nb_wmi.conf
+ 
+ 
+ 
+ 
+ /*More to come just wait */
