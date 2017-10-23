@@ -1,8 +1,8 @@
  A Beginner Guide To Linux 
 ===========================
-Hello in this text i will store all usefull information that i find
-while learning & using Linux myselfs, more specificly Debian Stretch so 
-here we go, hope this helps you otherwise it atleas will help me.
+	Hello in this text i will store all usefull information that i find
+	while learning & using Linux myselfs, more specificly Debian Stretch so 
+	here we go, hope this helps you otherwise it atleas will help me.
 
 
  Command lists
