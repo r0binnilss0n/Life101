@@ -54,46 +54,46 @@
  Here i will store Linux tools im using.
 
 
- To start of i will introduce a program called Wavemon, a program that helps
-you get a overlook at how your wifi connection is, information like ip, Link 
-quality, signal level/strength an much more.
-I found this tool while me and my friends tried to find the best spot for our 
-router to be placed, and looked at signal levels and link quality to decide.
-Lets get to it:
+	To start of i will introduce a program called Wavemon, a program that helps
+	you get a overlook at how your wifi connection is, information like ip, Link 
+	quality, signal level/strength an much more.
+	I found this tool while me and my friends tried to find the best spot for our 
+	router to be placed, and looked at signal levels and link quality to decide.
+	Lets get to it:
 
 
-Install:
- -> sudo apt-get update
- -> sudo apt-get install wavemon
+	Install:
+	 -> sudo apt-get update
+	 -> sudo apt-get install wavemon
 
-and thats it.
+	and thats it.
 
-Using it.
- -> wavemon (yeah the command is that simple)
+	Using it.
+	 -> wavemon (yeah the command is that simple)
 
-There is also some commands when wavemon is running:
+	There is also some commands when wavemon is running:
 
-Scan window (f3 or 's')
- -> This shows access points and other wireless clients, each entry
- starts with the ESSID, followed by the colour-coded MAC address.
- green/red MAC indicates an (un-)encrypted access point and changes to 
- yellow for non-access points.
+	Scan window (f3 or 's')
+	 -> This shows access points and other wireless clients, each entry
+	 starts with the ESSID, followed by the colour-coded MAC address.
+	 green/red MAC indicates an (un-)encrypted access point and changes to 
+	 yellow for non-access points.
 
-Preferences (f7 or 'p')
- -> This allows you to change all program options such as interface and
- level scale parameters. Select a parameter with and , then change the 
- value with and .
+	Preferences (f7 or 'p')
+	 -> This allows you to change all program options such as interface and
+	 level scale parameters. Select a parameter with and , then change the 
+	 value with and .
 
-Help (f8 or 'h')
- -> This page might show an online-help
+	Help (f8 or 'h')
+	 -> This page might show an online-help
 
-About (f9 or 'a')
- -> Release infromation
+	About (f9 or 'a')
+	 -> Release infromation
 
-Quit (f10 or 'q')
- -> Exit wavemon
+	Quit (f10 or 'q')
+	 -> Exit wavemon
 
-There you go, now you can keep your network under control like a pro.... kinda
+	There you go, now you can keep your network under control like a pro.... kinda
 
 
 
