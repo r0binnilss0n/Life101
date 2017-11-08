@@ -10,11 +10,16 @@
 	Here i will store all commands that i have knowleadge about 
 	& will be update as time goes on.
 	cd = change directory
+	ls = list directories (also shows file) to show more info add -a
 	pwd = present woring directory
 	cp <filePathOne> <filePathTwo> = copies a file, remember they dont need to have
 	the same name, Ex cp fileOne fileTwo will create a file named fileTwo with the
 	content of fileOne (fileOne will still excists)
 	sudo = this is something you adds to a command if you get error "premission denied"
+	tree = this command will give a overview of all files and directories structure
+	du -sh * This will show how much space a file/directory takes on the disk
+	du -h = This command adds all the file/directorys size
+	ls | wc -l = ls you already know, but by adding | wc -l it will now give you a number on how many files there are.
 
 
 
@@ -54,6 +59,7 @@
  Here i will store Linux tools im using.
 
 
+	# Wavemon #
 	To start of i will introduce a program called Wavemon, a program that helps
 	you get a overlook at how your wifi connection is, information like ip, Link 
 	quality, signal level/strength an much more.
@@ -95,8 +101,39 @@
 
 	There you go, now you can keep your network under control like a pro.... kinda
 
+	
+	# Tmux # 
+	So this is the secound tool i will introduce and its called tmux, and for me this
+	tool completely changed the way i worked with my terminal. What it does is that it alowes
+	you to split one terminal into multiple resizable terminal-squares that you easily can change
+	between so lets begin:
+	
+	
 
+	Install: 
+		sudo apt-get update && sudo apt-get install tmux
 
+	Using it:
+
+	To start using tmux simply type the command:
+	
+		tmux
+
+	there you go. Now that you have started tmux lets go through some 
+	of the shortcuts to add, move and change between the terminals
+	
+	Prefix is default in linux (Ctrl + b)
+	
+	Adding a terminal horizontal:
+		prefix + "
+
+	So first press (ctrl + b) then (shift + 2)
+	
+	Adding a terminal verticaly:
+		prefix + %
+
+	Change current terminal:
+		prefix and arrow keys
 
 
 

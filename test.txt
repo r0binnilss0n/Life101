@@ -1,0 +1,2 @@
+echo Hello Tere stranger && echo this is amazing
+cd ..
