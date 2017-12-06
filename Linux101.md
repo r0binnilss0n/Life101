@@ -9,17 +9,71 @@
 -----------------
 	Here i will store all commands that i have knowleadge about 
 	& will be update as time goes on.
-	cd = change directory
-	ls = list directories (also shows file) to show more info add -a
-	pwd = present woring directory
-	cp <filePathOne> <filePathTwo> = copies a file, remember they dont need to have
+
+	cd  -> change directory
+	ls  -> list directories (also shows file) to show more info add -a
+	pwd -> Print name of current working directory
+	cp <filePathOne> <filePathTwo> -> copies a file, remember they dont need to have
 	the same name, Ex cp fileOne fileTwo will create a file named fileTwo with the
 	content of fileOne (fileOne will still excists)
-	sudo = this is something you adds to a command if you get error "premission denied"
-	tree = this command will give a overview of all files and directories structure
-	du -sh * This will show how much space a file/directory takes on the disk
-	du -h = This command adds all the file/directorys size
-	ls | wc -l = ls you already know, but by adding | wc -l it will now give you a number on how many files there are.
+	sudo -> this is something you adds to a command if you get error "premission denied"
+	tree -> this command will give a overview of all files and directories structure
+	du -sh * -> This will show how much space a file/directory takes on the disk
+	du -h 	 -> This command adds all the file/directorys size
+	ls | wc -l -> ls you already know, but by adding | wc -l it will now give you a number on how many 	 files there are.
+	date -> shows date
+        cal  -> shows calendar of current month
+        df   -> shows current amount of free space on disk drives
+        free -> shows free memory
+        file -> Determine file type
+        less -> View  file contents
+                ¤ Page Up or b - scroll back one page
+                ¤ Page Down or space - scroll forward one page
+                ¤ Upp Arrow - scroll down one line
+                ¤ G - Move to the end of the text file
+                ¤ 1G or g - Moves to the beginning of the text file
+                ¤ /charachters - search forward to next occurrence of characters
+                ¤ n - Search for the next occurrence for the previous search
+                ¤ h - Display help screen
+                ¤ q - Quit less)
+      
+        mv   -> Move/rename files and directories
+        mkdir-> Create a new directory
+        rm   -> remove files and directories (sometimes -d (option) is needed to remove dir)
+        ln   -> Create Hard and symbolic links
+        type -> Indicates how a command name is interpreted
+        which-> Displays which executable program will be executed
+        help -> Get help from shell builtins
+        man  -> Display a commands manual Page sections is shown below
+                ¤ 1 = User commands
+                ¤ 2 = Programming interfaces for kerlen system calls
+                ¤ 3 = Programming interfaces for the C library
+                ¤ 4 = Special files such as device nodes and drivers
+                ¤ 5 = File formats
+                ¤ 6 = Games and amusements such as screen savers
+                ¤ 7 = Miscellabeous
+                ¤ 8 = System adminstration commands
+        apropos -> Display a list of approproate commands
+        info -> Display a commands info entry
+                ¤ ? = Display command help
+                ¤ PgUp Or Backspace = display previous page
+                ¤ PgDn Or space = Display next page
+                ¤ n = Next-Display next node
+                ¤ p = Previous-Display previous node
+                ¤ u = Up-Display the parent node of the currently displayed
+                      node, usally a menu
+                ¤ Enter = Follow the hyperlink at the cursor location
+                ¤ q = Quit
+        whatis  -> Display a very brief description of a command
+        alias-> Create an alias for a command (not permanent)
+        cat  -> Concatenate file
+        sort -> Sort lines of text
+        uniq -> Report or omit repeated lines
+        grep -> Print lines matching a pattern
+        wc   -> Print newline, word and byte counts for each file
+        head -> Outputs the first part of a file
+        tail -> Outputs the last part of a file
+        tee  -> Read from standard input and write to standard output and files
 
 
 
