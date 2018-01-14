@@ -188,6 +188,51 @@
 
 	Change current terminal:
 		prefix and arrow keys
+		
+	
+	# Chrome # 
+	
+	The following commands will install chrome on your linux computer, Start
+	by adding a the key:
+	
+	wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+	
+	Then set the repository:
+	
+	echo 'deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main' | sudo tee 	/etc/apt/sources.list.d/google-chrome.list
+	
+	And and then install it
+	
+	Sudo apt-get update && sudo apt-get install google-chrome-stable
+	
+	There you go, have fun.
+	
+	
+	# Atom #
+	
+	Same concept as for chrome start of by adding key:
+	
+	curl -L https://packagecloud.io/AtomEditor/atom/gpgkey | sudo apt-key add -
+	
+	
+	If you get error message "The program 'curl' is currently not installed..."
+	just type in:
+	
+	sudo apt-get install curl
+	
+	Add a source to the source list:
+	
+	sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main" > /etc/apt/sources.list.d/atom.list'
+	
+	
+	Then end with update and install as usual:
+	
+	sudo apt-get update && sudo apt-get install atom
+	
+	
+
+	
+	
 
 
 
